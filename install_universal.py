@@ -68,7 +68,7 @@ def install_cross_platform_dependencies():
     # Install other dependencies
     dependencies = [
         "faster-whisper==0.10.0",
-        "kittentts==0.1.0",
+        "pyttsx3>=2.90",           # Cross-platform TTS (no Hugging Face)
         "soundfile==0.12.1",
         "openpyxl==3.1.2",
         "requests==2.31.0",

@@ -4,8 +4,9 @@ keyboard>=0.13.5    # For Windows
 
 # Audio processing
 faster-whisper==0.10.0
-kittentts==0.1.0
-# pyaudio==0.2.11  # Commented out - use pipwin on Windows, pip on macOS/Linux
+pyttsx3>=2.90          # Cross-platform TTS (no Hugging Face dependencies)
+# kittentts==0.1.0     # Removed - has complex Hugging Face dependencies
+# pyaudio==0.2.11      # Commented out - use pipwin on Windows, pip on macOS/Linux
 soundfile==0.12.1
 
 # Data processing
